@@ -1,19 +1,4 @@
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Assignment</title>
-  </head></html>
-
-
 <?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
 include 'DbConnection.php';
  if (isset($_POST['SubmitDetails'])) {
  	
@@ -92,8 +77,4 @@ $filename = addslashes($_FILES["file"]["name"]);
 // Attempt insert query execution
 
 ?>
-
-
- <!-- <h1 class="text-uppercase text-center">User Details</h1><hr>
- <button class="btn btn-success "> <a href="index.php" class="text-white"><-Back to Home</a> </button -->
  	
